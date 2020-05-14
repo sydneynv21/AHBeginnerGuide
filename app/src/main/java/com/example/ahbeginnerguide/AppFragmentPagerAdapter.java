@@ -48,10 +48,10 @@ public class AppFragmentPagerAdapter extends FragmentPagerAdapter {
             return "FAQs";
         }
         else if(position == 3){
-            return "Resources";
+            return "Links";
         }
         else if(position == 4){
-            return "Teacher About Me";
+            return "Faculty";
         }
         else if(position == 5){
             return "Map";
