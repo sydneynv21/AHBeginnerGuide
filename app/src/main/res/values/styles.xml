@@ -7,5 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name = "MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">4sp</item>
+    </style>
 
 </resources>
