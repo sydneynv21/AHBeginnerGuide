@@ -31,13 +31,13 @@ public class EventFragment extends Fragment {
         mRecyclerView.setLayoutManager(layoutManager);
 
         ArrayList<Event> events = new ArrayList<>();
-        events.add(new Event("New Student Orientation","Wednesday, August 14th","Mrs Theony : theonyl@ahsd.org"));
-        events.add(new Event("Back to School Carnival", "Friday, August 23rd", "Miss Tarr : tarrj@ahsd.org"));
-        events.add(new Event("First Day of School", "Wednesday, September 4th", "Mr Snyder : snydera@ahsd.org"));
-        events.add(new Event("Homecoming", "Saturday, October 19th", "Mrs Andrisani : andrisanip@ahsd.org"));
-        events.add(new Event("Prom", "Saturday, May 2nd", "Mr Snyder : snydera@ahsd.org"));
-        events.add(new Event("Memorial Day", "Monday, May 25th", "Dr Mahon : mahonm@ahsd.org"));
-        events.add(new Event("Graduation", "Friday, June 12th", "Mrs Andrisani : andrisanip@ahsd.org"));
+        events.add(new Event("New Student Orientation","Wednesday, August 14th","theonyl@ahsd.org"));
+        events.add(new Event("Back to School Carnival", "Friday, August 23rd", "tarrj@ahsd.org"));
+        events.add(new Event("First Day of School", "Wednesday, September 4th", "snydera@ahsd.org"));
+        events.add(new Event("Homecoming", "Saturday, October 19th", "andrisanip@ahsd.org"));
+        events.add(new Event("Prom", "Saturday, May 2nd", "snydera@ahsd.org"));
+        events.add(new Event("Memorial Day", "Monday, May 25th", "mahonm@ahsd.org"));
+        events.add(new Event("Graduation", "Friday, June 12th", "andrisanip@ahsd.org"));
         mAdapter = new EventAdapter(events);
         mRecyclerView.setAdapter(mAdapter);
 
