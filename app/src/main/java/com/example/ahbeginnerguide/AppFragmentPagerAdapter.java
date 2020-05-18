@@ -23,7 +23,7 @@ public class AppFragmentPagerAdapter extends FragmentPagerAdapter {
             return new ResourcesFragment();
         }
         else if(position == 4){
-            return new MttFragment();
+            return new FacultyFragment();
         }
         else if(position == 5){
             return new MapFragment();

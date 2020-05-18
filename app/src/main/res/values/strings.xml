@@ -8,4 +8,6 @@
     <string name="eventTitleExample">Example Event Title</string>
     <string name="eventDateExample">Example Event Date</string>
     <string name="eventContactExample">Name : email</string>
+    <string name="example_faculty_name">Example Faculty Name</string>
+    <string name="example_faculty_contact">Example Faculty Contact</string>
 </resources>
