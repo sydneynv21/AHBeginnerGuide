@@ -10,4 +10,7 @@
     <string name="eventContactExample">Name : email</string>
     <string name="example_faculty_name">Example Faculty Name</string>
     <string name="example_faculty_contact">Example Faculty Contact</string>
+    <string name="resources">Resources</string>
+    <string name="example_answer">example answer</string>
+    <string name="example_question">example question</string>
 </resources>
