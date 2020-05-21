@@ -13,4 +13,7 @@
     <string name="resources">Resources</string>
     <string name="example_answer">example answer</string>
     <string name="example_question">example question</string>
+    <string name="firstLink">www.ahsd.org</string>
+    <string name="secondLink">classroom.google.com/h</string>
+
 </resources>

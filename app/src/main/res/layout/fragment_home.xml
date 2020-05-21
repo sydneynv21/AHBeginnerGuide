@@ -34,13 +34,47 @@
             android:textSize="26sp"
 
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resources: "
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/ahwebtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="@string/firstLink"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:textSize="19sp"
+            />
+        <TextView
+            android:id="@+id/googleclasstitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="@string/secondLink"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="19sp"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/generalInfo"
             android:gravity="center"
-            android:layout_marginTop="80dp"
             android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
             android:textSize="20sp"
 
             />

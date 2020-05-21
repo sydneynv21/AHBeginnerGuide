@@ -20,12 +20,9 @@ public class AppFragmentPagerAdapter extends FragmentPagerAdapter {
             return new FaqFragment();
         }
         else if(position == 3){
-            return new ResourcesFragment();
-        }
-        else if(position == 4){
             return new FacultyFragment();
         }
-        else if(position == 5){
+        else if(position == 4){
             return new MapFragment();
         }
         else{
@@ -34,7 +31,7 @@ public class AppFragmentPagerAdapter extends FragmentPagerAdapter {
     }
     @Override
     public int getCount(){
-        return 7;
+        return 6;
     }
     @Override
     public CharSequence getPageTitle(int position){
@@ -48,12 +45,9 @@ public class AppFragmentPagerAdapter extends FragmentPagerAdapter {
             return "FAQs";
         }
         else if(position == 3){
-            return "Links";
-        }
-        else if(position == 4){
             return "Faculty";
         }
-        else if(position == 5){
+        else if(position == 4){
             return "Map";
         }
         else{
