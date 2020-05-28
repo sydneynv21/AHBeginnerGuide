@@ -9,6 +9,16 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDescription"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPhotoCreds"
+        android:visibility="invisible"/>
 
 
 </RelativeLayout>
