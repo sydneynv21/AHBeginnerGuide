@@ -41,9 +41,16 @@ public class FaqFragment extends Fragment{
 
         ArrayList<Faq> faqs = new ArrayList<>();
         faqs.add(new Faq("Is there a dress code?","Yes, there is a dress code. Every student must be covered from the collar bone to three inches above the knee. "));
-        faqs.add(new Faq("What are the requirements to make the honor role?","The student must have at least a 90% or above average to make the honor role"));
+        faqs.add(new Faq("What are the requirements to make the honor role?","The student must have at least a 90% or above average to make the honor role."));
         faqs.add(new Faq("Are honors classes weighted?","Yes, honors and AP level classes are weighted by 5%."));
         faqs.add(new Faq("Does every new student get a mentor?", "Yes, every student is assigned a mentor on the Transition Team from the Sophomore or Junior class."));
+        faqs.add(new Faq("How far apart are classes in the High School?","Depending on which part of the building you are in, it can take from 5 seconds to 5 minutes to get to your next class."));
+        faqs.add(new Faq("How long are class periods?","Class periods are 43 minutes long each, not including 9th mod. Period 9 is 38 minutes."));
+        faqs.add(new Faq("How do I get involved in extracurricular activities?","Listen to the announcements everyday! Most clubs and activities hold general membership meetings at the beginning of the year, which are announced over the announcements."));
+        faqs.add(new Faq("How long do I have between classes?","You have 5 minutes in between classes to stop at your locker, use the restroom, or do anything else you need to do to prepare you for your next class."));
+        faqs.add(new Faq("When do I get my schedule?","You will get your schedule at New Student Orientation."));
+        faqs.add(new Faq("Are lunches with every grade?","Yes, you will have lunch with all grade levels. It is a great way to meet new people!"));
+        faqs.add(new Faq("Do I need to wear my ID badge all the time?","Yes, you need to have your ID badge around your neck, visible at all times throughout the school day for security purposes."));
         mAdapter = new FaqAdapter(faqs);
         mRecyclerView.setAdapter(mAdapter);
 
