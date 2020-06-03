@@ -14,8 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Main Floor :"
+        android:textColor="#3a6fb0"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        />
     <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
         android:id="@+id/imageView"
         android:layout_width="400dp"
@@ -31,18 +34,29 @@
             android:id="@+id/secondButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Second Floor"/>
+            android:text="Second Floor"
+            android:fontFamily="serif"
+            android:backgroundTint="#3a6fb0"
+            android:textColor="#FFFFFF"
+            />
         <Button
             android:id="@+id/mainButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Main Floor"
-            android:layout_toRightOf="@id/secondButton" />
+            android:layout_toRightOf="@id/secondButton"
+            android:fontFamily="serif"
+            android:backgroundTint="#3a6fb0"
+            android:textColor="#FFFFFF"
+            />
         <Button
             android:id="@+id/basementButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Basement"
+            android:fontFamily="serif"
+            android:backgroundTint="#3a6fb0"
+            android:textColor="#FFFFFF"
             android:layout_toRightOf="@id/mainButton"/>
 
 

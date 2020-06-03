@@ -11,6 +11,8 @@
         android:layout_marginLeft="16dp"
         android:textStyle="bold"
         android:textSize="23sp"
+        android:textColor="#3a6fb0"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/example_question" />
 
     <TextView
@@ -21,6 +23,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="8dp"
         android:textSize="21sp"
+        android:fontFamily="serif"
         android:text="@string/example_answer" />
 
 </RelativeLayout>

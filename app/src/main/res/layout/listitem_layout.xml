@@ -12,6 +12,8 @@
         android:layout_marginLeft="16dp"
         android:text="@string/eventTitleExample"
         android:textStyle="bold"
+        android:textColor="#3a6fb0"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textSize="20sp"/>
     <TextView
         android:id="@+id/textViewEventDate"
@@ -21,6 +23,7 @@
         android:layout_marginLeft="16dp"
         android:layout_below="@id/textViewEventTitle"
         android:text="@string/eventDateExample"
+        android:fontFamily="serif"
         android:textSize="16sp"/>
     <TextView
         android:id="@+id/textViewEventContact"
@@ -30,6 +33,7 @@
         android:layout_marginLeft="16dp"
         android:layout_below="@id/textViewEventDate"
         android:text="@string/eventContactExample"
+        android:fontFamily="serif"
         android:textSize="15sp"/>
 
 </RelativeLayout>

@@ -10,7 +10,9 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:textStyle="bold"
+        android:textColor="#3a6fb0"
         android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/example_faculty_name" />
 
     <TextView
@@ -21,6 +23,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="8dp"
         android:textSize="18sp"
+        android:fontFamily="serif"
         android:text="@string/example_faculty_contact" />
 
 </RelativeLayout>
