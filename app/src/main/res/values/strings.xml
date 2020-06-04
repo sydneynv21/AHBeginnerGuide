@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AHBeginnerGuide</string>
     <string name="welcomeText">Welcome to the Abington Heights High School Beginner Guide! \nWe are AH!</string>
-    <string name="generalInfo">200 East Grove St \nClarks Summit, PA 18411 \n 570-586-2511</string>
+    <string name="generalInfo">200 East Grove St \nClarks Summit, PA 18411</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

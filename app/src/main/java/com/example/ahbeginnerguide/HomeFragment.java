@@ -1,5 +1,7 @@
 package com.example.ahbeginnerguide;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +10,7 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -16,7 +19,8 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements View.OnTouchListener{
+    private TextView phoneNumberTextView;
 
 
     @Override
@@ -24,6 +28,15 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
+        phoneNumberTextView = (TextView) rootView.findViewById(R.id.phoneNumber);
+        phoneNumberTextView.setOnTouchListener(this);
         return rootView;
+    }
+    @Override
+    public boolean onTouch(View v, MotionEvent event){
+        Intent callIntent = new Intent(Intent.ACTION_DIAL);
+        callIntent.setData(Uri.parse("tel:5708070038"));
+        startActivity(callIntent);
+        return true;
     }
 }

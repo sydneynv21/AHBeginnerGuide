@@ -76,11 +76,19 @@
             android:layout_height="wrap_content"
             android:text="@string/generalInfo"
             android:gravity="center"
-            android:layout_marginBottom="20dp"
             android:layout_marginTop="40dp"
             android:fontFamily="serif"
             android:textSize="20sp"
-
+            />
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="570-807-0038"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
             />
     </LinearLayout>
 
