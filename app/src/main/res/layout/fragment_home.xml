@@ -67,16 +67,39 @@
             android:text="@string/secondLink"
             android:gravity="center"
             android:layout_marginTop="4dp"
-            android:layout_marginBottom="20dp"
             android:fontFamily="serif"
             android:textSize="19sp"
+            />
+        <TextView
+            android:id="@+id/sapphiretitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="https://ahsd-sapphire.k12system.com/CommunityWebPortal/Welcome.cfm"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="serif"
+            android:textSize="19sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NSOButton"
+            android:text="New Student Orientation Schedule"
+            android:backgroundTint="#3a6fb0"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_gravity="center"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/generalInfo"
             android:gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:fontFamily="serif"
             android:textSize="20sp"
             />

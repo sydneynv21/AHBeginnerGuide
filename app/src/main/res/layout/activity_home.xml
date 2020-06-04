@@ -10,28 +10,27 @@
         android:layout_height="wrap_content"
         android:id="@+id/wait"
         android:text="Please Wait!"
-        android:layout_above="@id/appLogo"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center"
+        android:textColor="#5099f2"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:paddingBottom="17dp"
         android:textSize="35sp"
         />
 
-    <ImageView
-        android:id="@+id/appLogo"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/logo"
 
-        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/load"
         android:text="Loading..."
-        android:layout_below="@id/appLogo"
+        android:layout_below="@id/wait"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#a7bcd6"
         android:paddingTop="17dp"
         android:textSize="35sp"
         />

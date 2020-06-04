@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -30,6 +31,14 @@ public class HomeFragment extends Fragment implements View.OnTouchListener{
 
         phoneNumberTextView = (TextView) rootView.findViewById(R.id.phoneNumber);
         phoneNumberTextView.setOnTouchListener(this);
+
+        Button nso = (Button) rootView.findViewById(R.id.NSOButton);
+        nso.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Intent myIntent = new Intent(view.getContext(), newstudentorientation.class);
+                startActivity(myIntent);
+            }
+        });
         return rootView;
     }
     @Override
